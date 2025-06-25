@@ -1,3 +1,6 @@
+from typing import List
+import math
+
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
         def function1(weights,capacity,days):
